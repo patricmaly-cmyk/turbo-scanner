@@ -1,9 +1,0 @@
-[build]
-  functions = "netlify/functions"
-  publish = "."
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
-    Access-Control-Allow-Headers = "Content-Type"
